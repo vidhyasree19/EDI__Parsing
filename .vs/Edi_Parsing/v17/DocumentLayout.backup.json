@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|c:\\users\\vidhyasreechinthalap\\desktop\\final_pro\\edi_parsing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|c:\\users\\vidhyasreechinthalap\\desktop\\final_pro\\edi_parsing\\models\\segments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|solutionrelative:models\\segments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|c:\\users\\vidhyasreechinthalap\\desktop\\final_pro\\edi_parsing\\parsers\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|solutionrelative:parsers\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|c:\\users\\vidhyasreechinthalap\\desktop\\final_pro\\edi_parsing\\models\\st.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|solutionrelative:models\\st.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|c:\\users\\vidhyasreechinthalap\\desktop\\final_pro\\edi_parsing\\models\\q2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98616FBD-7A8B-4C7C-AF5A-59FAF259F701}|Edi_Parsing.csproj|solutionrelative:models\\q2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Segments.cs",
+              "DocumentMoniker": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\Segments.cs",
+              "RelativeDocumentMoniker": "Models\\Segments.cs",
+              "ToolTip": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\Segments.cs",
+              "RelativeToolTip": "Models\\Segments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:31:58.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAQwIIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:39:11.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Parsers\\Parser.cs",
+              "RelativeDocumentMoniker": "Parsers\\Parser.cs",
+              "ToolTip": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Parsers\\Parser.cs",
+              "RelativeToolTip": "Parsers\\Parser.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAgwLAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:37:57.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q2.cs",
+              "DocumentMoniker": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\Q2.cs",
+              "RelativeDocumentMoniker": "Models\\Q2.cs",
+              "ToolTip": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\Q2.cs",
+              "RelativeToolTip": "Models\\Q2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA9wAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:09:21.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "St.cs",
+              "DocumentMoniker": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\St.cs",
+              "RelativeDocumentMoniker": "Models\\St.cs",
+              "ToolTip": "C:\\Users\\VidhyaSreeChinthalap\\Desktop\\Final_Pro\\Edi_Parsing\\Models\\St.cs",
+              "RelativeToolTip": "Models\\St.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:40:12.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
