@@ -7,18 +7,23 @@ using Microsoft.Azure.Cosmos;
 using Edi_Parsing;
 using Edi_Parsing.Models;
 using Parser;
+using DotNetEnv;
 
 namespace Parsing
 {
     class Program
+
     {
-        private static readonly string EndpointUri = "https://localhost:8081";
-        private static readonly string PrimaryKey = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
-        private static readonly string DatabaseId = "EDIParser";
-        private static readonly string ContainerId = "EDIContainers";
+        
+        
+        private static readonly string EndpointUri = Environment.GetEnvironmentVariable("CosmosDb__EndpointUri");
+        private static readonly string PrimaryKey = Environment.GetEnvironmentVariable("CosmosDb__PrimaryKey");
+        private static readonly string DatabaseId = Environment.GetEnvironmentVariable("CosmosDb__DatabaseName");
+        private static readonly string ContainerId = Environment.GetEnvironmentVariable("CosmosDb__ContainerName");
 
         static async Task Main(string[] args)
         {
+            Env.Load();
             string filepath = @"C:\Users\VidhyaSreeChinthalap\Desktop\EDI3.txt";
             string outputfilepath = @"C:\Users\VidhyaSreeChinthalap\Desktop\Out3.txt";
 
@@ -173,15 +178,15 @@ namespace Parsing
                         id = Guid.NewGuid().ToString(),
                         // EDIData = segments,
                         containerNumber = item.ContainerNumber,
-                        TradeType=item.b4Segment.First().SpecialHandlingCode,
-                        Status=item.b4Segment.First().ShipmentStatusCode,
-                        VesselName=item.q2Segment.Vessel_Name,
+                        TradeType = item.b4Segment.First().SpecialHandlingCode,
+                        Status = item.b4Segment.First().ShipmentStatusCode,
+                        VesselName = item.q2Segment.Vessel_Name,
                         VesselCode = item.q2Segment.Vessel_Code,
-                        Voyage=item.q2Segment.Flight_Number,
-                        Origin=item.r4Segment.First().Port_Name,
-                        Destination=item.r4Segment.Last().Port_Name,
-                        Line=item.n9Segment.First().Reference_Identification_Qualifier,
-                        SizeType=item.b4Segment.First().EquipmentType,
+                        Voyage = item.q2Segment.Flight_Number,
+                        Origin = item.r4Segment.First().Port_Name,
+                        Destination = item.r4Segment.Last().Port_Name,
+                        Line = item.n9Segment.First().Reference_Identification_Qualifier,
+                        SizeType = item.b4Segment.First().EquipmentType,
                     };
 
                     await container.CreateItemAsync(cosmosItem, new PartitionKey(cosmosItem.containerNumber));
